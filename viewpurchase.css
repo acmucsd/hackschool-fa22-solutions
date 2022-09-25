@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar {
+    /*
+    - Change background color to #BF4141
+    - Add a 15px-thick black border on the bottom
+    - Turn the navbar into a flex container w/ space between items
+    - Align the items vertically across the center
+    - Add a bottom margin of 25px
+    */
+    background-color: #3268a8;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.purchase-card-container {
+    display: inline-block;
+    border-color: #999999;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    box-shadow: 2% 4vh 10px #222222;
+    /* width: 40vw;
+    height: 20vw; */
+    min-width: 200px;
+    min-height: 240px;
+    margin: 2vh 2vw;
+    overflow-y: scroll;
+}
+
+.purchase-card-container-inner {
+    display: flex;
+}
+
+.purchase-card-container p {
+    margin: 0.5em;
+}
+
+.purchase-data-container {
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+.purchasecard-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.purchasecard-bold {
+    font-weight: bold;
+}
+
+.purchase-description {
+    color: #999999;
+    font-style: italic;
+}
+
+.purchase-types {
+    display: flex;
+}
+
+.purchase-types span {
+    display: inline;
+}
+
+.purchase-table {
+    margin-left: 0.4em;
+}
